@@ -9,7 +9,7 @@ My predictions for the 2021 March Madness Tournament
 
 (3) Trained a Gradient Boosting Algorithm on past tournament results
 
-(4) Used trained model to predict the win probility of each potential game in the 2021 tournament
+(4) Used trained model to predict the win probability of each potential game in the 2021 tournament
 
 (5) Plotted results in bracket
 
