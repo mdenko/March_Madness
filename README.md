@@ -14,8 +14,8 @@ My predictions for the 2021 March Madness Tournament
 (5) Plotted results in bracket
 
 ## 2022 Predictions
-![image](![image](https://user-images.githubusercontent.com/18687214/158728385-8935f0e5-8dda-4d5a-8b1d-8596a1bdb04d.png))
+![image](![image](https://github.com/mdenko/March_Madness/blob/main/march_madness_2022/outputs/2022_predictions.png))
 
 
 ## 2021 Results
-![image](![image](![image](https://user-images.githubusercontent.com/18687214/158728451-d8acec94-3d98-4753-873e-cde9810d4e73.png)))
+![image](![image](![image](https://github.com/mdenko/March_Madness/blob/main/march_madness_2022/outputs/2021_results.png)))
