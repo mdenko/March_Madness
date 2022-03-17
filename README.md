@@ -24,3 +24,4 @@ My resulting bracket was pretty decent. It had an overall log loss 0.66587 of wh
 ![image](march_madness_2022/outputs/2022_predictions.png)
 
 
+visualization source: https://observablehq.com/@sdpetrides/visualize-your-kaggle-brackets-for-march-madness
