@@ -46,3 +46,20 @@ Now, we are gonna predict the results for each game in the 2023 tourament and pr
 
 <object data="https://github.com/mdenko/March_Madness/blob/main/march_madness_2023/outputs/2023_predictions.pdf" type="application/pdf" width="100%"> 
 </object>
+
+
+<div id="adobe-dc-view" style="height: 360px; width: 500px;"></div>
+<script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
+<script type="text/javascript">
+  document.addEventListener("adobe_dc_view_sdk.ready", function(){
+    var adobeDCView = new AdobeDC.View({clientId: "<4f9539e8d1a6484196d26f6c62752a75>", divId: "adobe-dc-view"});
+    adobeDCView.previewFile({
+      content:{ location:
+        { url: "https://github.com/mdenko/March_Madness/blob/main/march_madness_2023/outputs/2023_predictions.pdf"}},
+      metaData:{fileName: "Bodea Brochure.pdf"}
+    },
+    {
+      embedMode: "SIZED_CONTAINER"
+    });
+  });
+</script>
