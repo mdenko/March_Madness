@@ -12,14 +12,13 @@ My resulting bracket was pretty decent. It had an overall log loss 0.66587 of wh
 
 In 2022, I followed a similar method however this time I applied a Gradient Boosting Classifier. My bracket ended up predicting the champion (Kansas) and my braket ended up #143 (out of 930 teams) and a log loss of 0.61624. This was quite a big improvement over previous years, however I think most of this gain is due to predicting the correct champion.
 
-## 2022 Predictions
 ![image](march_madness_2023/outputs/2022_results.png)
 
 ## 2023 Predictions
 
 Now, we are gonna predict the results for each game in the 2023 tourament and print the results (hopefully improving on the past two years)
 
-Changes From Previous Years
+### Changes From Previous Years
 
 (1) I used only data from years 2011 and later for this model. I have a suspicion that the years prior add little additional value given how much college basketball has evolved due to transfer/recruiting changes
 
@@ -29,7 +28,7 @@ Changes From Previous Years
 
 (4) Printed the braket using a different module. The submission file is different this year so I had to find an uglier solution.
 
-Steps
+### Steps
 
 (1) Import Train & Test Sets and combine with Kenpom data
 
@@ -41,4 +40,4 @@ Steps
 
 (5) Analyze Results
 
-pdf of bracket: https://github.com/mdenko/March_Madness/blob/main/march_madness_2023/outputs/2023_predictions.pdf
+### pdf of bracket: https://github.com/mdenko/March_Madness/blob/main/march_madness_2023/outputs/2023_predictions.pdf
