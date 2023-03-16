@@ -1,5 +1,5 @@
 # March_Madness
-My predictions for the 2021 and 2022 March Madness Tournament
+My predictions for the 2021, 2022, and 2023 March Madness Tournament
 
 ## 2021 Results
 ![image](march_madness_2022/outputs/2021_results.png)
@@ -8,20 +8,15 @@ In 2021, I leveraged the kaggle input data and combined with kenpom data. I then
 
 My resulting bracket was pretty decent. It had an overall log loss 0.66587 of which put me at #503 (out of 707) on the Kaggle March Madness prediction leaderboard.
 
-## 2022 Steps
+## 2022 Results
 
-(1) Used input data from Kaggle competition and created a feature set
-
-(2) Combined Kaggle feature set with scraped Kenpom Data
-
-(3) Trained a Gradient Boosting Algorithm on past tournament results
-
-(4) Used trained model to predict the win probability of each potential game in the 2021 tournament
-
-(5) Plotted results in bracket
+In 2022, I followed a similar method however this time I applied a Gradient Boosting Classifier. My bracket ended up predicting the champion (Kansas) and my braket ended up #143 (out of 930 teams) and a log loss of 0.61624. This was quite a big improvement over previous years, however I think most of this gain is due to predicting the correct champion.
 
 ## 2022 Predictions
-![image](march_madness_2022/outputs/2022_predictions.png)
+![image](march_madness_2023/outputs/2022_results.png)
+
+## 2023 Predictions
+!![image](march_madness_2023/outputs/2023_predictions.png)
 
 
 visualization source: https://observablehq.com/@sdpetrides/visualize-your-kaggle-brackets-for-march-madness
