@@ -41,3 +41,6 @@ Now, we are gonna predict the results for each game in the 2023 tourament and pr
 (5) Analyze Results
 
 ### pdf of bracket: https://github.com/mdenko/March_Madness/blob/main/march_madness_2023/outputs/2023_predictions.pdf
+
+<embed src="/blog/outputs/2023_predictions.pdf" type="application/pdf">
+
