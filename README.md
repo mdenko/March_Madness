@@ -16,7 +16,29 @@ In 2022, I followed a similar method however this time I applied a Gradient Boos
 ![image](march_madness_2023/outputs/2022_results.png)
 
 ## 2023 Predictions
-https://github.com/mdenko/March_Madness/blob/main/march_madness_2023/outputs/2023_predictions.pdf
 
+Now, we are gonna predict the results for each game in the 2023 tourament and print the results (hopefully improving on the past two years)
 
-visualization source: https://observablehq.com/@sdpetrides/visualize-your-kaggle-brackets-for-march-madness
+Changes From Previous Years
+
+(1) I used only data from years 2011 and later for this model. I have a suspicion that the years prior add little additional value given how much college basketball has evolved due to transfer/recruiting changes
+
+(2) Fixed Kenmpom Data Leakage. Prior Kenpom data was biased because it took into account tournament results. I used archived pages to get the Kenpom rankings pior to the tournament starting in each year.
+
+(3) Using a LGBMClassifer instead of GBM and Extra Trees Classifiers in previous years. The LazyClassifier model ranked this classifier as having the best predictive capabilities.
+
+(4) Printed the braket using a different module. The submission file is different this year so I had to find an uglier solution.
+
+Steps
+
+(1) Import Train & Test Sets and combine with Kenpom data
+
+(2) Prepare sets for model training
+
+(3) Use Lazy Predict to test multiple model types
+
+(4) Apply a LGBMClassifier to predict the win probility of each potential game
+
+(5) Analyze Results
+
+pdf of bracket: https://github.com/mdenko/March_Madness/blob/main/march_madness_2023/outputs/2023_predictions.pdf
