@@ -16,7 +16,7 @@ In 2022, I followed a similar method however this time I applied a Gradient Boos
 ![image](march_madness_2023/outputs/2022_results.png)
 
 ## 2023 Predictions
-!![image](march_madness_2023/outputs/2023_predictions.png)
+!![image](march_madness_2023/outputs/2023_predictions.pdf)
 
 
 visualization source: https://observablehq.com/@sdpetrides/visualize-your-kaggle-brackets-for-march-madness
